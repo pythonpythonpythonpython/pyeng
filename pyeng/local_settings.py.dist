@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+TEMPLATE_DEBUG = DEBUG = True
+SECRET_KEY = None  # please set it
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'database.db'
+    }
+}
